@@ -2,6 +2,7 @@ README FILE
 
 Note(s):
 - For the directions of the rover, I used arrow keys as keyboard inputs. 
+- Video showcase link is at the bottom
 
 Server Program:
 The server python program starts with grabbing the ip adress of the host, which is to be used later to bind it to the port. Protocol transmission is established on line 12, with 'socket.AF_INET' labelling the socket as an internet socket, while 'socket.SOCK_STREAM' is basically saying that it is using TCP. Line 18 takes the IP address grabbed from earlier and binds it to a port, and then the whole server program will wait until there is a client connected to it. 
